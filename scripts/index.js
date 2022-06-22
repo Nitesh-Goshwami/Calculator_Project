@@ -22,12 +22,15 @@ for (item of buttons) {
             text ="**2"
             screenValue += text;
             screen.value = screenValue
-        } else if (text == "Del") {
+        } else if (text == "Del") { // Implementing back space
             backspace();
-            console.log(screenValue)
-            console.log(typeof screenValue)
-            screenValue.split("");
-            console.log(screenValue)
+            let arr = screenValue.split("");
+            arr.pop();
+            let temp = "";
+            arr.forEach((row) => {
+                temp += row
+            })
+            screenValue = temp
         }
         else {
             screenValue += text;
