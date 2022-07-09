@@ -1,6 +1,6 @@
-# Todo App
+# Calculator App
 
-Please visit the app [Todo App](https://mycasio.netlify.app/).
+Please visit the app [Calculator App](https://mycasio.netlify.app/).
 
 Or copy the link below, in your browser
 ```
